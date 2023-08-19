@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<h1>CODEALPHA SURVEY FORM</h1>
+
+<style>
+    body{
+font-family:'Open Sans',sans-serif;
+margin:0 auto;
+width:970px;
+margin-top: 50px;
+background-color: rgb(139, 203, 208);
+
+}
+h1,h2,h3{
+color:#100f0f;
+margin-left: 350px;
+}
+header {
+    
+    height: 95px;
+    margin-bottom: 50px;
+    padding: 1px;
+    background-color: white;
+    
+    
+}
+form
+{
+    padding: 20px;
+    font-size:22px;
+    background-color: rgb(87, 151, 148);
+    margin-left: 190px;
+    margin-top: 30px;
+    
+}
+legend
+{
+    font-size: 30px;
+    color:purple;
+}
+button{
+    margin-top: 15px;
+    background-color: darkslateblue;
+    border-radius: 20px;
+    
+}
+
+</style>
+</head>
+<body>
+
+<form action="connect.php"method="post">
+  
+     Name:   
+    <input type="text" id="name"name="name"placeholder="enter your name" /><br/><br>
+    Email id:
+    <input type="email"id="email"name="email"placeholder="enter your email"/><br/><br>
+    
+    Gender:
+    <input type="radio" name="gender"value="m"
+    id="male">Male       
+    <input type="radio" name="gender"value="f"
+    id="female">Female   <br><br>
+    Phone No.
+    <input type="text"id="number" name="number"placeholder="Phone No."><br><br>
+    which option best describes you ?
+    <select >
+        <option>  </option>
+        <option name="role">Student</option>
+        <option name="role">Faculty</option>
+        <option name="role">Others</option>
+        <br>
+        <br>
+    </select><br><br>
+    How you come to know about CodeAlpha ?<br><br>
+    <input type="radio" name="frnd"value="s"
+    id="yes">Friends<br>     
+    <input type="radio" name="frnd"value="mb"
+    id="maybe">Tv Ads<br>
+    <input type="radio" name="frnd"value="n"
+    id="no"> Social Media<br><br> 
+
+    
+    Would You Recommend CodeAlpha to a friend ?<br><br>
+    <input type="radio" name="yes"value="s"
+    id="yes">Definitely<br>     
+    <input type="radio" name="yes"value="mb"
+    id="maybe">May be   <br>
+    <input type="radio" name="yes"value="n"
+    id="no">Not Sure<br><br>
+
+
+         
+<br><button>Submit</button>
+</form>
+
+</body>
+</html>
